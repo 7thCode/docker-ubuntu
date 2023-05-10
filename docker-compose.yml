@@ -1,0 +1,8 @@
+version: '3'
+services:
+  shell:
+    build:
+      context: ./docker
+      dockerfile: devenv
+    container_name: UBUNTU
+    tty: true
